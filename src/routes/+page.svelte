@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Presentation</title>
+	<title>Réseaux sociaux Holochain</title>
 </svelte:head>
 
 <Slides />
