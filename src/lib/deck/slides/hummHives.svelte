@@ -19,14 +19,14 @@
 			leurs histoires et à leurs médias.
 		</li>
 		<li>
-			HummHive permet aux gens de prendre des responsabilités radicales et de choisir comment ils
-			veulent que l'application fonctionne pour eux.
+			HummHive permet aux utilisateurs de prendre des responsabilités radicales et de choisir
+			comment ils veulent que l'application fonctionne pour eux.
 		</li>
 	</ul>
 
-	<div class="flex justify-between max-h-[300px]">
-		<img src="hummHive.png" alt="HummHive 1" class="w-1/4" />
-		<img src="hummHive2.png" alt="HummHive 2" class="w-1/4" />
-		<img src="hummHive3.png" alt="HummHive 3" class="w-1/4" />
+	<div class="flex justify-between max-h-[300px] gap-5">
+		<img src="hummHive.png" alt="HummHive 1" class="w-1/5" />
+		<img src="hummHive2.png" alt="HummHive 2" class="w-2/5" />
+		<img src="hummHive3.png" alt="HummHive 3" class="w-2/4" />
 	</div>
 </Slide>

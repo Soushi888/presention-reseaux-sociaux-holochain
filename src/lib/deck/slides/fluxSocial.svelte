@@ -4,7 +4,7 @@
 
 <Slide>
 	<Slide>
-		<div class="flex justify-center items-center gap-4">
+		<div class="flex justify-center items-center gap-4 font-bold">
 			<p>FluxSocial</p>
 			<img src="flux-logo.png" alt="FluxSocial logo" />
 			<a href="https://fluxsocial.io" target="_blank">https://fluxsocial.io</a>
@@ -20,7 +20,9 @@
 				<li>Intégrera des fonctionnalités crypto-natives.</li>
 			</ul>
 
-			<img src="flux_banner.png" alt="FluxSocial banner" />
+			<div class="flex justify-center">
+				<img src="flux_banner.png" alt="FluxSocial banner" class="w-4/5" />
+			</div>
 		</Slide>
 	</Slide>
 
