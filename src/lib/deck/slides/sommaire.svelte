@@ -5,6 +5,8 @@
 <Slide>
 	<p>Sommaire de la présentation :</p>
 
+	<ul><li class="text-2xl">Qu'est-ce que Holochain ?</li></ul>
+
 	<div class="flex justify-around">
 		<div>
 			<p>3 réseaux sociaux :</p>

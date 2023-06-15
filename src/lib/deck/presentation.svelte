@@ -1,6 +1,4 @@
 <script lang="ts">
-	import Code from './code.svelte';
-	import Markdown from './markdown.svelte';
 	import Slide from './slide.svelte';
 	import AD4M from './slides/AD4M.svelte';
 	import Conclusion from './slides/conclusion.svelte';

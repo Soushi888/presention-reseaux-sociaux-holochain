@@ -8,9 +8,9 @@
 	<ul>
 		<li>
 			La nature agent-centrique de Holochain permet : <ul>
-				<li>Flexibilité</li>
-				<li>Modularité</li>
-				<li>Souverainité des données</li>
+				<li><u>Flexibilité</u></li>
+				<li><u>Modularité</u></li>
+				<li><u>Souverainité des données</u></li>
 			</ul>
 		</li>
 		<li>
@@ -21,6 +21,10 @@
 			Cette technologie est suffisament générique pour être naturellement interopérable avec les
 			blockchains, API centralisées ou autre application Holochain. Ce qui en fait une technologie
 			"niveau 0" de choix pour les applications web
+		</li>
+		<li>
+			Intégration avec les crypto monnaies blockchain, mais aussi avec les <u>"mutual currency"</u>
+			(approche économique agent-centric).
 		</li>
 	</ul>
 
