@@ -1,15 +1,24 @@
 <script>
+	import { languageStore } from '$lib/store';
 	import Slide from '../slide.svelte';
 </script>
 
-<Slide>
-	<p>Sommaire de la présentation :</p>
+<Slide id="sommaire">
+	{#if $languageStore === 'fr'}
+		<p>Sommaire de la présentation :</p>
+	{:else if $languageStore === 'en'}
+		<p>Summary of the presentation :</p>
+	{/if}
 
 	<ul><li class="text-2xl"><a href="#/what-is-holochain">Qu'est-ce que Holochain ?</a></li></ul>
 
 	<div class="flex justify-around">
 		<div>
-			<p>4 réseaux sociaux :</p>
+			{#if $languageStore === 'fr'}
+				<p>4 réseaux sociaux :</p>
+			{:else if $languageStore === 'en'}
+				<p>4 social networks :</p>
+			{/if}
 			<ul>
 				<li><a href="#/fluxsocial">FluxSocial</a></li>
 				<li><a href="#/hylo">Hylo</a></li>

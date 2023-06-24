@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { languageStore } from '$lib/store';
 	import Slide from './slide.svelte';
 	import AD4M from './slides/AD4M.svelte';
 	import Conclusion from './slides/conclusion.svelte';
@@ -12,7 +13,11 @@
 </script>
 
 <Slide>
-	<p>Réseaux sociaux avec</p>
+	{#if $languageStore === 'fr'}
+		<p>Réseaux sociaux avec</p>
+	{:else}
+		<p>Social Networks with</p>
+	{/if}
 	<img src="/Holochain-Logo-Colors.png" alt="Holochain Logo" />
 </Slide>
 
@@ -20,7 +25,13 @@
 
 <WhatIsHolochain />
 
-<Slide><p>Réseaux Sociaux</p></Slide>
+<Slide>
+	{#if $languageStore === 'fr'}
+		<p>Réseaux sociaux</p>
+	{:else}
+		<p>Social Networks</p>
+	{/if}
+</Slide>
 
 <FluxSocial />
 

@@ -1,9 +1,10 @@
 <script>
+	import { languageStore } from '$lib/store';
 	import Slide from '../slide.svelte';
 </script>
 
-<Slide id="fluxsocial">
-	<Slide>
+<Slide>
+	<Slide id="fluxsocial">
 		<div class="flex justify-center items-center gap-4 font-bold">
 			<p>FluxSocial</p>
 			<img src="flux-logo.png" alt="FluxSocial logo" />
@@ -11,14 +12,25 @@
 		</div>
 
 		<Slide>
-			<ul>
-				<li>
-					Flux est une plateforme entièrement distribuée, centrée sur l'humain, qui facilite la
-					coordination sociale avec plus de confidentialité, d'autonomie et de flexibilité.
-				</li>
-				<li>Fonctionnalités actuelles dans le style de Discord.</li>
-				<li>Intégrera des fonctionnalités crypto-natives.</li>
-			</ul>
+			{#if $languageStore === 'fr'}
+				<ul>
+					<li>
+						Flux est une plateforme entièrement distribuée, centrée sur l'humain, qui facilite la
+						coordination sociale avec plus de confidentialité, d'autonomie et de flexibilité.
+					</li>
+					<li>Fonctionnalités actuelles dans le style de Discord.</li>
+					<li>Intégrera des fonctionnalités crypto-natives.</li>
+				</ul>
+			{:else}
+				<ul>
+					<li>
+						Flux is a fully distributed, human-centric platform that makes social coordination
+						easier with more privacy, autonomy, and flexibility.
+					</li>
+					<li>Current features in the style of Discord.</li>
+					<li>Will integrate crypto-native features.</li>
+				</ul>
+			{/if}
 
 			<div class="flex justify-center">
 				<img src="flux_banner.png" alt="FluxSocial banner" class="w-4/5" />
