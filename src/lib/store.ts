@@ -1,3 +1,5 @@
 import { writable } from 'svelte/store';
 
-export const languageStore = writable('en');
+export const defaulLanguage = 'fr';
+
+export const languageStore = writable(defaulLanguage);

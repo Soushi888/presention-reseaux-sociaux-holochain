@@ -2,7 +2,7 @@
 	import Slide from '../slide.svelte';
 </script>
 
-<Slide>
+<Slide id="what-is-holochain">
 	<p>Qu'est-ce qu'Holochain ?</p>
 	<Slide>
 		<ul>

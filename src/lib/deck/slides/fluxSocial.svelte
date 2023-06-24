@@ -2,7 +2,7 @@
 	import Slide from '../slide.svelte';
 </script>
 
-<Slide>
+<Slide id="fluxsocial">
 	<Slide>
 		<div class="flex justify-center items-center gap-4 font-bold">
 			<p>FluxSocial</p>

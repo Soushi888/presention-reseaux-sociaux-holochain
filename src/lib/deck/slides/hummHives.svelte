@@ -2,7 +2,7 @@
 	import Slide from '../slide.svelte';
 </script>
 
-<Slide>
+<Slide id="hummhive">
 	<div class="flex justify-center items-center gap-20">
 		<img src="hummhive-logo.png" alt="HummHive logo" class="h-16" />
 		<a href="https://humm.earth" target="_blank">https://humm.earth</a>

@@ -2,7 +2,7 @@
 	import Slide from '../slide.svelte';
 </script>
 
-<Slide>
+<Slide id="ad4m">
 	<div class="flex justify-center items-center gap-4">
 		<img src="ad4m-logo.png" alt="AD4M logo" />
 		<p class="text-xl font-bold">Agent-Centric Distributed Application Meta-ontology</p>

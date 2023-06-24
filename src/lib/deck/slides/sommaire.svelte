@@ -5,22 +5,23 @@
 <Slide>
 	<p>Sommaire de la présentation :</p>
 
-	<ul><li class="text-2xl">Qu'est-ce que Holochain ?</li></ul>
+	<ul><li class="text-2xl"><a href="#/what-is-holochain">Qu'est-ce que Holochain ?</a></li></ul>
 
 	<div class="flex justify-around">
 		<div>
-			<p>3 réseaux sociaux :</p>
+			<p>4 réseaux sociaux :</p>
 			<ul>
-				<li>FluxSocial</li>
-				<li>Hylo</li>
-				<li>HummHive</li>
+				<li><a href="#/fluxsocial">FluxSocial</a></li>
+				<li><a href="#/hylo">Hylo</a></li>
+				<li><a href="#/hummhive">HummHive</a></li>
+				<li><a href="#/corenexus">CoreNexus</a></li>
 			</ul>
 		</div>
 		<div>
 			<p>2 frameworks :</p>
 			<ul>
-				<li>AD4M</li>
-				<li>Neighbourhoods</li>
+				<li><a href="#/ad4m">AD4M</a></li>
+				<li><a href="#/neighborhoods">Neighbourhoods</a></li>
 			</ul>
 		</div>
 	</div>

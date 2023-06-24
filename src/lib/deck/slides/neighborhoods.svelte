@@ -2,7 +2,7 @@
 	import Slide from '../slide.svelte';
 </script>
 
-<Slide>
+<Slide id="neighborhoods">
 	<div class="flex justify-center items-center gap-4">
 		<p class="text-3xl font-bold">Neighborhoods</p>
 		<img src="neighborhoods_banner.webp" alt="Neighborhoods banner" class="w-60" />
